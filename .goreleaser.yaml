@@ -1,6 +1,9 @@
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
 project_name: gta
 builds:
-  - env: [CGO_ENABLED=0]
+  -
+    main: ./cmd/gta
+    env: [CGO_ENABLED=0]
     goos:
       - linux
       - darwin
