@@ -13,7 +13,7 @@ since you will know which packages (and dependencies) have changed.
 ## Installation
 
 ```sh
-go install github.com/digitalocean/gta/cmd/gta
+go install github.com/sgtsquiggs/gta/cmd/gta
 ```
 
 After installation, you will have a `gta` binary in `$GOPATH/bin/`
